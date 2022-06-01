@@ -35,7 +35,7 @@
   }
   
 .task__label,
-.task__input-text {
+.task__input-type-text {
     width: 56%;
     display: inline-block;
     flex-grow: 1;
@@ -56,7 +56,8 @@
     list-style: none;
   }
   
-  .input-task, 
+  .task__input-type-text, 
+  .input-task
   .button{
     outline: none;
   }
@@ -160,15 +161,15 @@
   }
   
   /* Edit Task */
-  .items.input-type-text {
+  .items .task__input-type-text {
     display: none;
   }
   
-  .task__edit-mode.task__input-type-text {
+  .task__edit-mode .task__input-type-text {
     display: inline-block;
     width: 224px;
   }
   
-  .task__edit-mode.task__label {
+  .task__edit-mode .task__label {
     display: none;
   }
